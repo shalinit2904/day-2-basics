@@ -1,0 +1,9 @@
+#include<stdio.h>
+int main(){
+    int tam,eng,math,phy,che,tot;
+    scanf("%d%d%d%d%d",&tam,&eng,&math,&phy,&che);
+    tot=tam+eng+math+phy+che;
+    printf("Total:%d",tot);
+    float avg=tot/5;
+    printf("\nAverage:%.2f",avg);
+}
